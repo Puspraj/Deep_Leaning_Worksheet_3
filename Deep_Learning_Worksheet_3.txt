@@ -1,0 +1,74 @@
+Question Number, Correct Option, Answer
+
+1> b, As number of hidden layers increase, model capacity increases
+
+2> c,  It normalizes (changes) all the input before sending it to the next layer
+
+3> c,  Network will converge
+
+4> d, All of these
+
+5> c,(-4,-4,3)
+
+6> b,  Simulate the network on a test dataset after every epoch of training. Stop training when the generalization
+       error starts to increase.
+
+7> b, Stochastic Gradient Descent
+
+8> d,  Re-train the model for the new dataset
+
+ More than one Correct option 
+
+9> b,c
+
+10> c,d
+
+Subjective Answer:
+
+11>Answer:- Linear transformations make the neural network simpler, but this network
+            would be less powerful and will not be able to learn the complex pattern
+            from the data. A neural network without an activation function is 
+            essentially just a linear regression model. 
+
+12>Answer:- Forword propagation refers to the calculation and storage of intermediate
+            variables including outputs for a neural network in order from the input
+            layer. We now work step-by-step through the mechanics of a neural network
+            with one hidden layer.
+
+            Backpropagation refers to the method of calculating the gradient of neural
+            network parameters. In short, the method traverses the network in reverse 
+            order, from the output to the input layer, according to the chain rule 
+            from calculus. The algorithm stores any intermediate variables (partial 
+            derivatives) required while calculating the gradient with respect to some parameters.
+
+13>Answer:- Gradient Descent: This is the first-order iterative optimization algorithm for
+            finding the minimum of a function.
+
+            Stochastic:- Suppose our dataset have 5 million example, then just to take one 
+                         step the model will have to calculate the gradients of all the 5 
+                         million examples. This does not seem an efficient way. To tackle 
+                         this problem we have stochastic gradient descent.
+
+            Batch Gradient Descent:- In batch gradient descent, all the training data is taken
+                                     into consideration to take a single step. This is great
+                                     for convex or relatively smooth error manifolds.
+
+            Mini-batch:- We use a batch of a fixed number of training examples which is less
+                         than the actual dataset and call it a mini-batch.So, after creating
+                         the mini-batches of fixes size, we do following steps;
+                         i. Pick a mini-batch ii. Feed it to Neural Network iii. Calculate the mean gradient of the mini-batch iv. 
+
+14>Answer:- Main benefits of Mini-batch Gradient Descent is:
+            i. Easily fits in the memory.
+           ii. It is computationally efficient.
+          iii. Benefit from vectorization.
+           iv. If stuck in local minimums, some noise steps can lead the way out of them.
+            v. Average of the training samples produces stable error gradients and convergence.
+
+15>Answer:- Transfer learning is a research problem in machine learing that focuses on storing
+            knowledge gained while solving one problem and applying it to a different but 
+            related problem. For example, knowledge gained while learning to recognize cars
+            could apply when trying to recognize trucks.
+
+
+ 
